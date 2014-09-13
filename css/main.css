@@ -1,0 +1,129 @@
+html { height:100%; }
+
+body {
+  height: 100%;
+  overflow: hidden;
+  margin :0px;
+  background-color: black;
+  -moz-box-orient: vertical;
+}
+
+header {
+  height: 150px;
+}
+
+hr {
+  width 100%;
+  margin-bottom: 0px;
+}
+
+footer {
+  width:100%;
+  float:left;
+  display: block;
+}
+
+#brandLogo {
+  display:inline;
+  height:128px;
+  width: 128px;
+  margin: 20px 20px 0px 30px;
+}
+#memberNum {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  margin: 128px 30px 0px 0px;
+}
+
+#forumContent, aside, #drrrOnline {
+  height:68%;
+}
+
+#forumContent, aside {
+  display: inline;
+  float: left;
+  width: 25%;
+  border: 2px solid;
+  border-right-color: gray;
+}
+
+#drrrOnline {
+  display: inline;
+  margin-top: 20px;
+  width 25%;
+}
+
+#forumContent {
+  width: 50%;
+  color: white;
+  border-color: black;
+  border-right-color: gray;
+}
+
+.forumButton {
+  color: white;
+  background-color: gray;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: white;
+  margin: 10px auto 0px auto;
+  text-align: center;
+  width: 76%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.forumButton:hover {color: black; cursor:pointer;}
+
+#drrrOnlineTitle {
+  margin: 10px auto 10px auto;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.userPortrait {
+}
+
+.userPortraitPic {
+  margin: 10px 10px auto 10px;
+}
+
+#forumTalkPublish, #forumTalkTopBar {
+  height: 28px;
+  line-height: 28px;
+}
+
+#forumTalkPublish {
+  float: right;
+  clear: both;
+  margin-right: 2px;
+  font-weight: bold;
+}
+.forumTalk {
+  margin: 5px auto 5px auto;
+  padding: 5px 10px 5px 10px;
+  width: 95%;
+  border: 2px solid white;
+  background: gray;
+  border-radius: 20px;
+}
+
+.forumTalkHeader {
+  margin-bottom: 10px;
+}
+.navButton {
+  float:right;
+  color: white;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#forumTalkPublish:hover, .navButton:hover {
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
